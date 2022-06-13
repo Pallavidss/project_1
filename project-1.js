@@ -3,9 +3,10 @@
 const multiplyByTen = (num) => {
   // return num after multiplying it by ten
   // code here
+  console.log(num*10)
   
 };
-
+multiplyByTen(10);
 const subtractFive = (num) => {
   // return num after subtracting five
   // code here
