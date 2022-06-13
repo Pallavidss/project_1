@@ -10,55 +10,95 @@ multiplyByTen(10);
 const subtractFive = (num) => {
   // return num after subtracting five
   // code here
+  console.log(num-5);
 };
 
 const areSameLength = (str1, str2) => {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  if(str1.length()==str2.length())
+  {
+    console.log(true);
+  }
+  else{
+    console.log(false);
+  }
 };
 
 const areEqual = (x, y) => {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  if(x === y)
+  {
+    console.log(true);
+  }
+  else{
+    console.log(false);
+  }
+  
 };
 
 const lessThanNinety = (num) => {
   // return true if num is less than ninety
   // otherwise return false
   // code here
+  if(num < 90)
+  {
+    console.log(true);
+  }
+  else{
+    console.log(false);
+  }
 };
 
 const greaterThanFifty = (num) => {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  if(num>50)
+  {
+    console.log(true);
+  }
+  else{
+    console.log(false);
+  }
 };
 
 const add = (x, y) => {
   // add x and y together and return the value
   // code here
+  let sumis = x+y;
+  console.log(sumis);
 };
 
 const subtract = (x, y) => {
   // subtract y from x and return the value
   // code here
+  let subtis = x-y;
+  console.log(subtis);
 };
 
 const divide = (x, y) => {
   // divide x by y and return the value
   // code here
+  let dividis = x/y;
+  console.log(dividis);
 };
 
 const multiply = (x, y) => {
   // multiply x by y and return the value
   // code here
+  const mult=x*y;
+  console.log(mult);
 };
 
 const getRemainder = (x, y) => {
   // return the remainder from dividing x by y
   // code here
+  const remainde=x%y;
+  console.log(remainde);
 };
 
 const isEven = (num) => {
@@ -71,6 +111,13 @@ const isOdd = (num) => {
   // return true if num is odd
   // otherwise return false
   // code here
+  if(num%2==0)
+  {
+    console.log(true)
+  }
+  else{
+    console.log(false);
+  }
 };
 
 const square = (num) => {
